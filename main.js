@@ -1,6 +1,4 @@
-const num1 = 2;
-const num2 = 4;
+const addition = (a, b) => a + b;
 
-const total = num1 + num2;
-
-console.log(total);
+const result = addition(5, 3);
+console.log(result);
