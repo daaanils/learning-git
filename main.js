@@ -1,9 +1,9 @@
 // document.getElementById("demo").innerHTML = "Hello Danilo.";
-console.log("hello world");
-console.log('Danilo Pelaso');
+// console.log("hello world");
+// console.log('Danilo Pelaso');
 
-let names = 'Jaycel Montes';
-console.log(names);
+// let names = 'Jaycel Montes';
+// console.log(names);
 
 
 //this is the variable for 
