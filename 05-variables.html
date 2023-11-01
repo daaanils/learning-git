@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variables</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,500&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@900&family=Montserrat:wght@300;500&family=Poppins:wght@200;300;400;500&family=Raleway&family=Roboto:wght@300&family=Ubuntu&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+
+    <button onclick="
+        console.log(`Cart Quantity: ${cartQuantity}`);
+        ">Show Quantity</button>
+
+    <button onclick="
+        cartQuantity++;
+        console.log(`Cart Quantity: ${cartQuantity}`);
+    ">Add to Cart</button>
+
+    <button onclick="
+        cartQuantity += 2;
+        console.log(`cart Quantity: ${cartQuantity}`);
+    ">+2</button>
+
+    <button onclick="
+        cartQuantity += 3;
+        console.log(`cart Quantity: ${cartQuantity}`);
+    ">+3</button>
+
+    <button onclick="
+        cartQuantity = 0;
+        console.log(`Cart was reset.`);
+        console.log(`Cart Quantity : ${cartQuantity}`);
+
+
+    ">Reset Cart</button>
+
+
+    
+    <script src="app.js">
+    </script>
+    
+</body>
+</html>

@@ -117,3 +117,111 @@
 
 
 // console.log(completeNumber);
+
+//Array Methods
+//Push Methods
+
+// let names = ['Danilo', 'Jaycel', 'Vince'];
+// names.push('Mike');
+
+//Pop Method
+
+// let names = ['Danilo', 'Jaycel', 'Vince', 'mike'];
+
+// names.pop();
+
+//splice method
+// let names = ['Danilo', 'Jaycel', 'Vince', 'jek', 'yab'];
+
+
+// console.log(names.slice(2));
+
+
+// let students = [
+//     {
+//         id: 1,
+//         f_name: 'Danilo',
+//         l_name: 'Pelaso',
+//         gender: 'M',
+//         course: 'BSIT'
+//     },
+//     {
+//         id: 2,
+//         f_name: 'Jaycel',
+//         l_name: 'Montes',
+//         gender: 'F',
+//         course: 'BSN'
+//     },
+//     {
+//         id:3,
+//         f_name: 'Jerico',
+//         l_name: 'Bedoya',
+//         gender: 'M',
+//         course: 'BSCS'
+//     }
+// ];
+
+// ***Map Iterator
+
+// const newStudents = students.map((student, index) => {
+//     return student;
+// });
+
+
+//Filter Method
+// const filteredStudents = students.filter((student, index) => student.gender === "M");
+
+// const x = 2;
+
+// setTimeout(function(){
+//     console.log('hello world');
+// },5000)
+
+// console.log(x);
+
+// const button = document.querySelector('.btn')
+
+// button.addEventListener('click', ()  => {
+//     console.log('button clicked');
+// }); 
+
+// const arrayFruits = ['🍌', '🍎', '🍇']
+
+// const myString = 'This is the first line\"\\n\"';
+
+// const myString = `My salary per day as part timer is ${76 * 6} Pesos`
+
+// console.log(myString)
+
+// let theNumber = Number(prompt("Pick a number"));
+// if (theNumber === 0) {
+//     console.log('the number you entered is zero');
+// } else if (!Number.isNaN(theNumber)) {
+//     console.log(`Your Number is the squaroot of ${theNumber * theNumber}`);
+// } else {
+//     console.log('The Number is you entered is not valid')
+// } 
+
+
+// for (let number = 0; number <= 20; number = number + 2) {
+//     console.log(number);
+// }
+// let result = 1;
+// for (let i = 0; i < 10; i++) {
+//     result *= 2;
+// }
+
+// console.log(result);
+let cartQuantity = 0;
+
+
+
+let cost = ((1 * 5) + (2 * 3) + (1 * 9));
+let taxCharge = cost * 0.10;
+
+console.log(`Tax (10%): $${taxCharge}`);
+
+
+
+
+ 

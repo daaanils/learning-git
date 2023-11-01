@@ -1,13 +1,392 @@
-.red-button {
-    color: #fff;
-    background-color: blue;
+
+
+
+.subscribe {
+    background-color: #B70404;
     border: none;
-    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    color: #fff;
     cursor: pointer;
-    width: 5rem;
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: opacity 0.15s;
 }
 
-.red-paragraph {
-    color: red;
+.subscribe:hover {
+    opacity: 0.8;
 }
+
+.subscribe:active {
+    opacity: 0.5;
+}
+
+.joinButton {
+    background-color: #fff;
+    border-color: #3876BF;
+    border-style: solid;
+    border-width: 1px;
+    padding: 9px 10px 9px 10px;
+    color: #3876BF;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.15s, color 0.15s;
+
+}
+
+.joinButton:hover {
+    background-color: #3876BF;
+    color: #fff;
+}
+
+.joinButton:active {
+    opacity: 0.6;
+}
+
+.tweet-button {
+    background-color: #0096FF;
+    border: none;
+    border-radius: 18px;
+    color: #fff;
+    padding: 10px 20px 10px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: box-shadow 0.15s;
+    
+
+
+}
+
+.tweet-button:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.uber-button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 10px 10px 10px;
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+
+.uber-button:hover {
+    opacity: 0.8;
+}
+
+.uber-button:active {
+    opacity: 0.5;
+}
+
+.amazon-button {
+    background-color: #F4CE14;
+    border: none;
+    padding: 10px 40px 10px 40px;
+    border-radius: 75px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.15s;
+
+}
+
+.amazon-button:hover {
+    background-color: #e0bd0e;
+    
+}
+
+.amazon-button:active {
+    opacity: 0.7;
+}
+
+.github-button {
+    background-color: #379237;
+    padding: 10px 20px 10px 20px;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: box-shadow 0.15s;
+
+}
+
+.github-button:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15)
+}
+
+.github-button:active {
+    opacity: 0.8;
+}
+
+.my-buttons {
+    display: flex;
+    justify-content:center;
+    
+}
+
+#first-buttons {
+    margin-right: 50px;
+}
+
+.bootstrap-getStarted {
+    padding: 10px 20px 10px 20px;
+    background-color: #713ABE;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.15s;
+
+}
+
+.bootstrap-getStarted:hover {
+    background-color: #602aaa;
+}
+
+.bootstrap-getStarted:active {
+    opacity: 0.8;
+}
+
+.bootstrap-download {
+    background-color: #fff;
+    border-color: #45474B;
+    padding: 10px 20px 10px 20px;
+    color: #45474B;
+    border-radius: 5px;
+    font-weight: bold;
+    border-width: 1px;
+    border-style: solid;
+    cursor: pointer;
+    transition: background-color 0.15s, color 0.15s;
+    
+}
+
+.bootstrap-download:hover {
+    background-color: #45474B;
+    color: #fff;
+    
+}
+
+.bootstrap-download:active {
+    opacity: 0.8;
+}
+
+.apply-button{
+    background-color: #3876BF;
+    padding: 10px 30px 10px 30px;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 18px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+
+}
+
+.apply-button:hover {
+    background-color: #225b9c;
+}
+
+.apply-button:active {
+    opacity: 0.8;
+}
+
+.save-button {
+
+    background-color: #fff;
+    padding: 10px 20px 10px 20px;
+    border-color: #3876BF;
+    color: #285e9c;
+    font-weight: bold;
+    border-radius: 18px;
+    border-width: 1.5px;
+    cursor: pointer;
+    transition: background-color 0.15s, 
+
+}
+
+.save-button:hover {
+    background-color: #89b7e542;
+    border-width: 2px;
+}
+
+.save-button:active {
+    opacity: 0.8;
+}
+
+a {
+    color: #3876BF;
+    transition: color 0.15s;
+    cursor: pointer;
+}
+
+a:hover {
+    color: orange;
+}
+
+#stock {
+    font-weight: bold;
+    color: green;
+}
+
+#add-cart {
+    height: 36px;
+    width: 120px;
+    background-color: #F4CE14;
+    border: none;
+    border-radius: 60px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.15s;
+
+
+}
+
+#add-cart:hover {
+    background-color: #c9aa12;
+}
+
+#add-cart:active {
+    opacity: 0.8;
+}
+
+#buy-now {
+    height: 36px;
+    width: 120px;
+    background-color: orange;
+    border: none;
+    border-radius: 60px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.15s;
+
+
+}
+
+#buy-now:hover {
+    background-color: rgb(223, 150, 16);
+}
+
+#buy-now:active {
+    opacity: 0.8;
+}
+
+/* Lesson 4 */
+
+.back-button {
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    border-width: 1px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.back-button:hover {
+    background-color: green;
+    color: #fff;
+}
+
+.back-button:active {
+    opacity: 0.8;
+}
+
+.next-button {
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    border-width: 1px;
+    margin: 5px;
+    cursor: pointer;
+
+}
+
+.next-button:hover {
+    background-color: green;
+    color: #fff;
+}
+
+.next-button:active {
+    opacity: 0.8;
+}
+
+#lesson-4 a {
+    margin: 5px;
+}
+
+.shadow-button {
+    padding: 10px;
+    background-color: rgb(3, 116, 3);
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    border-width: 1px;
+    cursor: pointer;
+    transition: box-shadow 0.1s, font-size 0.15s, padding 0.15s;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    border-style: none;;
+   
+}
+
+.shadow-button:active {
+    box-shadow: none;
+    margin: 3px 0 0 3px;
+}
+
+.stretch-button {
+    padding: 15px 20px 15px 20px;
+    background-color:rgb(3, 116, 3);
+    color: #fff;
+    border-style: none;
+    border-radius: 5px;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    transition: font-size 0.15s;
+    cursor: pointer;
+
+}
+
+.stretch-button:hover {
+    font-size: 20px;
+}
+
+.one-button, .two-button, .three-button {
+    padding: 10px 25px 10px 25px;
+    background-color:rgb(3, 116, 3);
+    color: #fff;
+    border-style: none;
+    border-radius: 5px;
+    margin: 0px 10px 0px 10px;
+    font-weight: bold;
+    font-size: 15px;
+    transition: padding 0.15s, margin 0.15s;
+    cursor: pointer;
+    
+
+}
+
+.one-button:hover {
+    padding: 10px 30px 10px 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+
+.two-button:hover {
+    padding: 10px 30px 10px 30px;margin-left: 0px;
+    margin-right: 0px;
+
+}
+
+.three-button:hover {
+    padding: 10px 30px 10px 30px;margin-left: 0px;
+    margin-right: 0px;
+
+}
+
 
